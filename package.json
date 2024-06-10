@@ -6,8 +6,7 @@
   "types": "./build/index.d.js",
   "scripts": {
     "clean": "del-cli ./build/*",
-    "build": "npm run clean && tsc",
-    "publish": "git add . && git commit -m \"Updates\" && npm version patch && npm publish"
+    "compile": "tsc"
   },
   "files": [
     "build/**/*"
