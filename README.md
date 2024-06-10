@@ -6,6 +6,9 @@
 git add .
 git commit
 npm version patch
+npm run clean
+npm run build
+npm publish
 ```
 
 ## Setup History
