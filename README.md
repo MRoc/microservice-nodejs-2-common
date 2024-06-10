@@ -1,4 +1,14 @@
-# History
+# Common
+
+## Publishing
+
+```
+git add .
+git commit
+npm version patch
+```
+
+## Setup History
 
 ```
 npm init -y
