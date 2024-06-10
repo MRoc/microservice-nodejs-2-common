@@ -44,3 +44,12 @@ In package.json, add the entry points:
   "main": "./build/index.js",
   "types": "./build/index.d.js",
 ```
+
+
+Install dependencies
+
+```
+npm install express express-v
+alidator cookie-session jsonwebtoken @types/cook
+ie-session @types/express @types/jsonwebtoken
+```
