@@ -16,7 +16,10 @@ class NatsWrapper {
   }
 
   client() {
-    return this._client!;
+    if (!this._client) {
+      throw new Error("Call connect() before calling client()!");
+    }
+    return this._client;
   }
 }
 
