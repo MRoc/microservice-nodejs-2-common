@@ -9,7 +9,7 @@ npm version patch
 npm run clean
 npm run build
 npm publish
-npm update @mroc/ex-ms-common
+npm update "@mroc/ex-ms-common"
 ```
 
 ## Setup History
